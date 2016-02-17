@@ -1,6 +1,6 @@
 # EMISHOW
 
-WEB访问地址：<a href="emishow.cn">emishow.cn</a>
+WEB访问地址：<a href="http://www.emishow.cn">emishow.cn</a>
 
 ![Alt text](https://raw.githubusercontent.com/baiyanghese/emishow/master/src/images/emishow.png "手机访问扫描域名秀二维码")
 
