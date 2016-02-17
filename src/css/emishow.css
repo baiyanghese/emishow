@@ -1,0 +1,78 @@
+header {
+  height: 3.333333rem;
+  width: 100%;
+  background-color: #04BE02;
+  font-size: 1.25rem;
+  line-height: 3.333333rem;
+  text-align: center;
+  color: #fff;
+}
+[data-dpr="2"] header {
+  height: 5.833333rem;
+  font-size: 1.666667rem;
+  line-height: 5.833333rem;
+}
+[data-dpr="3"] header {
+  height: 5.833333rem;
+  font-size: 1.666667rem;
+  line-height: 5.833333rem;
+}
+.main {
+  width: 100%;
+  margin: 0 auto;
+}
+[data-dpr="2"] .main {
+  width: 100%;
+  margin: 0 auto;
+}
+[data-dpr="3"] .main {
+  width: 100%;
+  margin: 0 auto;
+}
+ul li {
+  display: block;
+  height: 3.333333rem;
+  line-height: 3.333333rem;
+  border-bottom: 1px dotted #ccc;
+}
+[data-dpr="2"] ul li {
+  height: 4.166667rem;
+  line-height: 4.166667rem;
+}
+[data-dpr="3"] ul li {
+  height: 4.166667rem;
+  line-height: 4.166667rem;
+}
+ul li span {
+  font-size: 1rem;
+}
+ul li div {
+  margin: 0px 1.25rem;
+}
+ul li span b {
+  padding: 0px 0px 0px 0.416667rem;
+  color: #04BE02;
+}
+h2 {
+  font-size: 1rem;
+  line-height: 1.666667rem;
+  padding: 0px 1.666667rem;
+  text-align: center;
+  color: #f00;
+  font-weight: 600;
+}
+.ercode {
+  width: 8.333333rem;
+  height: auto;
+  text-align: center;
+  margin: 0.833333rem auto;
+}
+.ercode img {
+  width: 100%;
+}
+footer {
+  font-size: 0.8rem;
+  line-height: 4.166667rem;
+  text-align: center;
+  color: #ccc;
+}
