@@ -18,7 +18,7 @@
         <meta name="x5-page-mode" content="app"/>
         <meta name="msapplication-tap-highlight" content="no"/>
         <title>
-        域名秀(列表域名均可出售，欢迎咨询，联系方式在页尾)
+        EMISHOW
         </title>
         <meta name="keywords" content="EMISHOW旗下部分域名展示与出售" />
         <meta name="description" content="EMISHOW旗下部分域名展示与出售" />
@@ -28,7 +28,7 @@
     </head>
     <body>
         <header>
-            EMISHOW旗下可出售的域名
+            EMISHOW旗下可售的域名
         </header>
         <main class="main">
             <section>
@@ -203,12 +203,6 @@
                     </li>
                     <li>
                         <div class="clearfix">
-                            <span class="g-f-left">tubudadi.cn</span>
-                            <span class="g-f-right">可译为<b>徒步大地（可为户外旅行）</b></span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="clearfix">
                             <span class="g-f-left">tubudadi.com</span>
                             <span class="g-f-right">可译为<b>徒步大地（可为户外旅行）</b></span>
                         </div>
@@ -234,20 +228,32 @@
 
                </ul>
             </section>
-            <section>
-                <h3>EMISHOW联系人信息</h3>
-                <div class="ercode clearfix">
-                    <img src="src/images/ercode.jpg"  alt="" />
-                    <img src="src/images/ercode_xiaoman.jpg" alt="" />
+            <a href="javascript:;" onclick="showModal();" class="public-show-modal" id="showmodal"></a>
+            <section class="contact-modal js-ds-none" id="contactmodal">
+                <div class="wximg">
+                    <img src="src/images/jackfan.jpg" alt="" />
                 </div>
-                <h2>
-                    注：以上域名均可出售，价格私聊。诚信交易，实惠优质，骗子滚蛋。如有意向请扫描以上任意微信二维码联系咨询，加好友请注明：购买域名。
-                </h2>
+                <h2>域名咨询，购买<br />请用微信识别以上二维码</h2>
             </section>
+            <div class="contact-modal-mask js-ds-none" onclick="hideModal();" id="mask"></div>
         </main>
         <footer>
         COPYRIGHT © 2016 WWW.EMISHOW.CN. ALL RIGHTS RESERVED.
         </footer>
+        <script type="text/javascript">
+        function showModal() {
+            var c_modal = document.getElementById("contactmodal");
+            var mask = document.getElementById("mask");
+            c_modal.className = "contact-modal";
+            mask.className = "contact-modal-mask";
+        }
+        function hideModal() {
+            var c_modal = document.getElementById("contactmodal");
+            var mask = document.getElementById("mask");
+            c_modal.className = "contact-modal js-ds-none";
+            mask.className = "contact-modal-mask js-ds-none";
+        }
+        </script>
         <!--可以删除的统计代码-->
         <div style="display:none">
             <script type="text/javascript" src="http://tajs.qq.com/stats?sId=54539231" charset="UTF-8"></script>

@@ -73,7 +73,10 @@ body {
   width: 100%;
   background: #efeff4;
   color: #333;
-  font: 1.4rem/1.5 "STHeitiSC-Light","Microsoft YaHei",Helvitica,Verdana,Tohoma,Arial,san-serif;
+  font-family: "Helvetica neue",Helvetica,Tahoma,"lantinghei sc","Microsoft Yahei",sans-serif;
+  word-wrap: break-word;
+  table-layout: fixed;
+  word-break: break-all;
   overflow-x: hidden;
 }
 
