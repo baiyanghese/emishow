@@ -36,7 +36,7 @@ ul li {
   display: block;
   height: 3.333333rem;
   line-height: 3.333333rem;
-  border-bottom: 0.041667rem dotted #920201;
+  border-bottom: 0.041667rem dotted #eee;
 }
 [data-dpr="2"] ul li {
   height: 4.166667rem;
